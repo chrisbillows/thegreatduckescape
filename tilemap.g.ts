@@ -16,6 +16,17 @@ namespace myTiles {
 . . . . . 2 . . . 2 
 2 . . . . . 2 . . . 
 `, [myTiles.transparency16,sprites.builtin.forestTiles0,sprites.swamp.swampTile0,sprites.builtin.forestTiles18,sprites.castle.tilePath5,sprites.castle.tileDarkGrass2,sprites.builtin.forestTiles3], TileScale.Sixteen);
+            case "level2":
+            case "level2":return tiles.createTilemap(hex`0a0008000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+`, [myTiles.transparency16,sprites.castle.tileGrass2], TileScale.Sixteen);
         }
         return null;
     })
